@@ -1,0 +1,33 @@
+<html>
+   <head>
+     <title> </title>
+	 <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+   <iframe src="https://www.youtuberepeater.com/watch?v=Gk3tXQzCeJA#gsc.tab=0" allow="autoplay" style="display:none" id="iframeAudio"> 
+</iframe>
+      <div class="form-box">
+<!--Remember to name the website richard-->
+	     <h1>Welcome To The ExamDB</h1>
+	  <div class="input-box">
+	       <form>
+    <label for="pswd">Enter your password:</label>
+    <input type="password" id="pswd">
+    <input type="button" value="Login" onclick="checkPswd();" />
+</form>
+<!--DoritoDuck Encryption pls no hakin :D-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "dickandballs";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="webpage.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+	  </div>
+   </body>
+</html>        
